@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 function App() {
   const [messages, setMessages] = useState([]);
   const [text, setText] = useState("");
-  const API_URL = "http://localhost:5000"; // Change to Render backend later
+  const API_URL = "https://mern-form-iq7s.onrender.com"; // Change to Render backend later
 
   useEffect(() => {
     fetch(`${API_URL}/messages`)
